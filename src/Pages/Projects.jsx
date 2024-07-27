@@ -28,7 +28,7 @@ const Projects = () => {
                 {project.map((proj, index) => (
                     <Card
                         key={index}
-                        className="bg-transparent"
+                        className="bg-fuchsia-200"
                     >
                       {proj.image && (
                             <img src={proj.image} alt={proj.title} className=" h-48 object-cover mb-1 " />

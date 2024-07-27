@@ -16,8 +16,8 @@ const Contact = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            await axios.post('https://portfolio-backend-9meb.onrender.com/api/comments', formData);
-            console.log('Form submitted successfully');
+            await axios.post('https://portfolio-backend-2e1w.onrender.com/api/comments', formData);
+            
         } catch (error) {
             console.error('Error submitting form', error);
         }
