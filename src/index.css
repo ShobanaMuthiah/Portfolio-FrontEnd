@@ -402,45 +402,6 @@ body {
 	width:100vw !important;
 	}
  }
-/* 
-@media (max-width:450px) and (min-width:350px){
-	.animated-light-text-purple{
-		font-size: 0.98em;
-	font-weight: bold;
-		
-	}
-	.avatar{
-		height:10vh !important;
-		width:10vw !important;
-		margin-bottom:4px !important;
-	}
-	.homepage{
-		height:0vh;
-		width:0vw;
-	}
-	.portfolio-image{
-		height:0vh;
-		width:0vw;
-	}
-	.animated-light-text{
-		font-size:.6em;
-	}
-	.about{
-		font-size:8px !important;
-	}
-	.homeAbout{
-		font-size: 6px !important;
-	}
-	.btn{
-		font-size:9px !important;
-	}
-	.car{
-	padding:0  !important;
-	}
-	.carD{
-	width:100vw !important;
-	}
- } */
 @media (max-width:548px) and (min-width:450px){
 	.animated-light-text-purple{
 		font-size: 0.95em;
