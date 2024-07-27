@@ -76,7 +76,7 @@
 	background: #fff;
 	padding: 20px;
 	border-radius: 10px;
-	width: 85%;
+	width: 80%;
 	height: 80%;
 	overflow: auto;
 	}
@@ -239,7 +239,7 @@ body {
 	font-family: "Kanit", sans-serif;
 	font-weight: 200;
 	font-style: normal;
-	color:rgb(212, 228, 228) !important;
+	color:rgb(252, 252, 252) !important;
 }
 
 .carD{
@@ -384,13 +384,13 @@ body {
 		width:0vw;
 	}
 	.animated-light-text{
-		font-size:.8em;
+		font-size:.9em;
 	}
 	.about{
-		font-size:9px !important;
+		font-size:11px !important;
 	}
 	.homeAbout{
-		font-size: 7px !important;
+		font-size: 9dvh !important;
 	}
 	.btn{
 		font-size:9px !important;
