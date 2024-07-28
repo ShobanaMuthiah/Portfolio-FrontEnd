@@ -35,7 +35,6 @@
   color:rgb(203, 0, 176) !important;
 	
 }
-/* Skills.css */
 .skills-container {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
