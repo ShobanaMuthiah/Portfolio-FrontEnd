@@ -100,14 +100,16 @@ const Home = () => {
   
       </Modal>
 
-<div className="w-full text-center mt-8 p-4">
+<div className="flex justify-center get">
+<div className=" text-center mt-8 w-7/12  p-4">
 <h2 className="text-3xl text-white font-bold">Get in Touch</h2>
-<small className=" text-white mt-2">
+<small className=" text-white mt-2 ">
   Interested in collaborating or have a question?<br/> Reach out to me via email or connect with me on LinkedIn or through this portfolio. I'd love to hear from you!
 </small>
 <small className=" text-gray-200 ">
   For more details about my work and experience, download my resume or check out my GitHub for the latest projects and contributions. Stay tuned for updates and new projects!
 </small>
+</div>
 </div>
     </div>
   );

@@ -302,6 +302,9 @@ body {
     .anime {
         order: 1;
     }
+	.get{
+		width:100vw !important;
+	}
 }
 
   
