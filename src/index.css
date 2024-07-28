@@ -319,7 +319,7 @@ body {
 
   }
   .animated-light-text {
-	font-size: 1em;
+	font-size: .9em;
 	color: #fff;
 	background: linear-gradient(55deg, rgba(251, 187, 251, 0.88), rgba(210, 255, 255, 0.873) 50%, rgba(255, 178, 255, 0.866));
 	background-size: 300% 100%;
@@ -329,7 +329,7 @@ body {
   }
 
   .animated-light-text-purple {
-	font-size: 2.5em;
+	font-size: 2.4em;
 	font-weight: bold;
 	color: #fff;
 	background: linear-gradient(60deg, rgba(153, 0, 255, 0.839), rgba(255, 0, 204, 0.826) 50%, rgba(153, 0, 255, 0.826));
