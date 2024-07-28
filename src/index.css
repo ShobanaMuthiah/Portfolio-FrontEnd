@@ -7,6 +7,17 @@
 @tailwind components;
 @tailwind utilities;
 
+.btn{
+	background: linear-gradient(60deg, rgba(10, 200, 26, 0.499), rgba(156, 253, 77, 0.499) 50%, rgba(235, 242, 41, 0.559));
+	border-color: #ffef3eae;
+}
+.btn-Button{
+	background: linear-gradient(55deg, rgba(200, 10, 10, 0.674), rgba(235, 55, 106, 0.66) 50%, rgba(242, 41, 172, 0.707));
+	border-color: #ff3e3eae;
+}
+.error{
+	color:red;
+}
 .input-field {
     width: 300px;
 }
@@ -98,9 +109,7 @@
 	height: 60vh; 
 	width: 60vw; 
   }
-  .Nav{
-	height:13vh !important; 
-  }
+  
   .App {
 	display: flex;
 	flex-direction: column;
