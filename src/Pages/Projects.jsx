@@ -53,7 +53,7 @@ const Projects = () => {
                         className="bg-fuchsia-100 flex justify-start"
                     >
                       {proj.image && (
-                            <img src={proj.image} alt={proj.title} className=" h-48 object-cover mb-1 " />
+                            <img src={proj.image} alt={proj.title} className=" h-48 border-1 object-cover mb-1 " />
                         )}
                           <p className=" text-2xl font-bold tracking-tight ">{proj.title}</p>
                         <p className=" font-normal ">{proj.about}</p>
