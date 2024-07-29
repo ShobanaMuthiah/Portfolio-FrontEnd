@@ -65,7 +65,7 @@ const Contact = () => {
                             <ErrorMessage name="description" component="div" className="error" />
                         </div><br />
                         <div className='text-center'>
-                            <button type="submit" className='btn mb-3 btn-primary'>Submit</button>
+                            <button type="submit" className='btn mb-3 btn-secondary'>Submit</button>
                         </div>
                     </Form>
                 </Formik>
