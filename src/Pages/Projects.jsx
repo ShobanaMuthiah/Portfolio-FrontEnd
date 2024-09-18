@@ -16,7 +16,7 @@ const Projects = () => {
         {
             image: apexora,
             title: "Apexora-Travel planner App",
-            about: "A travel planner app is a digital tool that helps users efficiently organize, book, and manage their travel itineraries and plans.",
+            about: "A travel planner app is a digital tool that helps users efficiently organize, book and plans.",
             tech: "Reactjs, JS, Tailwind, MongoDB, Nodejs",
             code: "https://github.com/ShobanaMuthiah/Travel-Planner-App-FrontEnd",
             prev: "https://apexora-travelplanner.netlify.app"
@@ -41,7 +41,7 @@ const Projects = () => {
             image: mobile,
             title: "Mobile Shopping Cart",
             about: "It is Mobile phone Shopping Carts with a familiar features",
-            tech: "React.js, JS, MongDB",
+            tech: "React.js, JS, MongoDB",
             code: "https://github.com/ShobanaMuthiah/Mobile-Cart-ContextAPI",
             prev: "https://mobile-cart-context-api.netlify.app/"
         }
@@ -52,9 +52,9 @@ const Projects = () => {
             <h1 className="text-3xl text-center font-bold mb-6 about-heading">My Projects</h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
                 {project.map((proj, index) => (
-                    <Card
+                    <div
                         key={index}
-                        className="bg-fuchsia-100 flex flex-col justify-between p-4"
+                        className="bg-fuchsia-100 card flex flex-col justify-between p-4"
                     >
                         {proj.image && (
                             <img src={proj.image} alt={proj.title} className="h-48 border-gray-950 border-1 object-cover mb-4" />
@@ -65,10 +65,10 @@ const Projects = () => {
                             <p className="font-normal"><strong>Technologies:</strong> {proj.tech}</p>
                         </div>
                         <div className="flex justify-between mt-4">
-                            {proj.code && <a href={proj.code} target='_blank'><Button>Code</Button></a>}
-                            {proj.prev && <a href={proj.prev} target='_blank'><Button>Preview</Button></a>}
+                            {proj.code && <a href={proj.code} target='_blank'><button className="btn btn-outline-dark">Code</button></a>}
+                            {proj.prev && <a href={proj.prev} target='_blank'><button className='btn btn-outline-dark'>Preview</button></a>}
                         </div>
-                    </Card>
+                    </div>
                 ))}
             </div>
         </div>
